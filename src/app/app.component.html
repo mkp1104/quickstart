@@ -1,0 +1,8 @@
+<!-- <div>{{appTitle}} Tutorialspoint </div> -->
+<div *ngIf = 'appStatus'>{{appTitle}} Tutorialspoint </div> 
+<div *ngFor = 'let lst of appList'> 
+    <ul> 
+       <li>{{lst.ID}}</li> 
+       <li>{{lst.Name}}</li> 
+    </ul> 
+ </div> 
